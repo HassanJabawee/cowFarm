@@ -1,6 +1,6 @@
-/* 
+/*
 
-Dashboard Template 
+Dashboard Template
 http://www.templatemo.com/preview/templatemo_415_dashboard
 
     1. CSS Imports
@@ -13,7 +13,7 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
     8. Bootstrap overrides
     9. Maps
     10. Media Queries
-	
+
 --------------------------------------- */
 
 /* 1. CSS Imports
@@ -92,14 +92,24 @@ h1 { font-size: 24px; }
     border: 0px;
     padding: 20px 15px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 300;
-
 }
 .templatemo-sidebar-menu a { color: black; }
 .templatemo-sidebar-menu a:hover { text-decoration: none; }
-.templatemo-sidebar-menu li.sub .templatemo-submenu { display: none; }
-.templatemo-sidebar-menu li.sub.open .templatemo-submenu { display: block; }
+li.sub .templatemo-submenu { display: none; }
+li.sub.open .templatemo-submenu { display: block; }
+li.subb.openSubMenuList ul.subMenuList { display: block; }
+li.subb ul.subMenuList { display: none; }
+
+/*
+.templatemo-submenu li > a{
+    padding-left: 86px;
+    margin-left: -40px;
+background-color: #2a6496}
+
+*/
+
 .templatemo-submenu { padding-left: 0; }
 .templatemo-submenu li {
     list-style: none;
@@ -130,7 +140,7 @@ h1 { font-size: 24px; }
     text-align: center;
 }
 
-/* 4. Charts 
+/* 4. Charts
 --------------------------------------------*/
 .templatemo-chart-box {
     display: inline-block;
@@ -145,7 +155,7 @@ h1 { font-size: 24px; }
     margin-bottom: 30px;
 }
 
-/* 6. Sign in Form 
+/* 6. Sign in Form
 --------------------------------------------*/
 .templatemo-signin-form {
     padding-top: 50px;
