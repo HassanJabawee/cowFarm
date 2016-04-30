@@ -48,6 +48,7 @@
 .input__label-content {
 	position: relative;
 	display: block;
+	text-align: center;
 	padding: 1.6em 0;
 	width: 100%;
 }
