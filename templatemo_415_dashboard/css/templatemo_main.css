@@ -22,6 +22,16 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
 @import url(font-awesome.min.css);
 @import url(bootstrap.min.css);
 
+
+@font-face {
+    font-family: 'aa';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/A Nasr/A.Nasr.ttf");
+}
+.ahrar { font-family: aa, sans-serif; }
+
+
 /* 2. General Styles
 --------------------------------------- */
 * { font-family: 'Open Sans', sans-serif; }
@@ -43,7 +53,7 @@ margin-top: 18px !important;}
     width: 100%;
 }
 .templatemo-content {
-    margin-left: 235px;
+    margin-left: 342px;
     margin-top: 0px;
     min-height: 600px;
     padding: 25px 20px 0 20px;
@@ -80,12 +90,31 @@ margin-top: 18px !important;}
     list-style: none;
     margin: 0;
     padding: 0;
+    width: 342px;
 }
 .templatemo-sidebar .templatemo-sidebar-menu > li {
     display: block;
     margin: 0;
     padding: 0;
     border: 0px;
+    font-size: 17px;
+}
+.savebtn{
+    font-size: 30px;
+}
+.fieldHeader{
+    float: right;
+    padding-right: 36px;
+}
+.margin-top-10{
+    margin-top: 10px;
+}
+.margin-top-30{
+    margin-top: 30px;
+}
+.date{
+    text-align: center;
+    border: none;
 }
 .templatemo-sidebar .templatemo-sidebar-menu > li > a {
     display: block;
@@ -94,8 +123,12 @@ margin-top: 18px !important;}
     border: 0px;
     padding: 20px 15px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 22px;
     font-weight: 300;
+}
+input[type=date]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
 }
 .templatemo-sidebar-menu a { color: black; }
 .templatemo-sidebar-menu a:hover { text-decoration: none; }
@@ -264,6 +297,20 @@ h1 {
     margin: 0 0px 30px -100px;
     text-align: center;
 }
+.textbox{
+    border: none;
+    background: rgba(255,255,255,0.1);
+    font-size: 19px;
+    height: 66px;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 400px;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+}
 
 input[type="password"],
 input[type="date"],
@@ -280,9 +327,8 @@ input[type="select"],
 textarea,
 select {
     background: rgba(255,255,255,0.1);
-    border: none;
-    font-size: 16px;
-    height: auto;
+    font-size: 19px;
+    height: 66px;
     margin: 0;
     outline: 0;
     padding: 15px;
@@ -321,11 +367,14 @@ fieldset {
 }
 
 legend {
-    font-size: 2.4em;
-    margin-bottom: 30px;
-    margin-top: 20px;
+    font-size: 2.1em;
+    margin-bottom: 40px;
+    margin-top: 0px;
 }
 
+.legendLabel{
+    padding-right: 20px;
+}
 label {
     display: block;
     margin-bottom: 8px;
@@ -336,9 +385,16 @@ label.light {
     font-weight: 300;
     display: inline;
 }
+.rightFloat{
+    float:right;
+}
 
-.calender{
+.centerize{
     margin-left: 25%;
+}
+.cenerizeHeader{
+    padding-right: 52px;
+    float: right;
 }
 .number {
     background-color: #5fcf80;
