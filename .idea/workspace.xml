@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27a81ac8-a1a6-4223-877f-64a798c9176a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templatemo_415_dashboard/data-visualization.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templatemo_415_dashboard/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templatemo_415_dashboard/maps.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templatemo_415_dashboard/preferences.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templatemo_415_dashboard/css/demo.css" afterPath="$PROJECT_DIR$/templatemo_415_dashboard/css/demo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templatemo_415_dashboard/css/templatemo_main.css" afterPath="$PROJECT_DIR$/templatemo_415_dashboard/css/templatemo_main.css" />
-    </list>
+    <list default="true" id="27a81ac8-a1a6-4223-877f-64a798c9176a" name="Default" comment="" />
     <ignored path="project.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -242,8 +234,8 @@
     <option name="totallyTimeSpent" value="15440000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24851191" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
