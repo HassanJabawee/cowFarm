@@ -30,6 +30,100 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
     src: url("../fonts/A Nasr/A.Nasr.ttf");
 }
 .ahrar { font-family: aa, sans-serif; }
+@font-face {
+    font-family: 'bb';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/A.Nasr.ttf");
+}
+.Anaser { font-family:bb, sans-serif; }
+@font-face {
+    font-family: 'cc';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/A Nasr/djadli_khatAnnasr.ttf");
+}
+.djadli_khatAnnasr { font-family: cc, sans-serif; }
+@font-face {
+    font-family: 'dd';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/A Nasr/djadli_khatAnnasrExtrude.ttf");
+}
+.djadli_khatAnnasrExtrude { font-family: dd, sans-serif; }
+
+@font-face {
+    font-family: 'ee';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/A Nasr/djadli_khatAnnasrShadow.ttf");
+}
+.djadli_khatAnnasrShadow { font-family: ee, sans-serif; }
+@font-face {
+    font-family: 'ff';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/A Nasr/djadli_khatAnnasrSlant.ttf");
+}
+.djadli_khatAnnasrSlant { font-family: ff, sans-serif; }
+@font-face {
+    font-family: 'gg';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Alex_ar/Alax_ar.ttf");
+}
+.Alax_ar { font-family: gg, sans-serif; }
+@font-face {
+    font-family: 'hh';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Ara Ahrar/Ara Ahrar.ttf");
+}
+.AraAhrar { font-family: hh, sans-serif; }
+@font-face {
+    font-family: 'ii';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Ara Ahrar/Barbarello.ttf");
+}
+.Barbarello{ font-family: ii, sans-serif; }
+
+@font-face {
+    font-family: 'jj';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/B Morvarid/B Morvarid.ttf");
+}
+.BMorvarid{ font-family: jj, sans-serif; }
+@font-face {
+    font-family: 'kk';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/B Yekan/B Yekan.ttf");
+}
+.BYekan{ font-family: kk, sans-serif; }
+@font-face {
+    font-family: 'll';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Bahij Insan font arabic/Bahij_Insan-Regular.ttf");
+}
+.Bahij_Insan-Regular{ font-family: ll, sans-serif; }
+@font-face {
+    font-family: 'a';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Fonoon_ar/Fonoon.ttf");
+}
+.Fonoon{ font-family: a, sans-serif; }
+@font-face {
+    font-family: 'Hacen Promoter Lt';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Hacen Promoter Lt/Hacen Promoter Lt.ttf");
+}
+.Hacen { font-family: Hacen Promoter Lt, sans-serif; }
+
 
 
 /* 2. General Styles
