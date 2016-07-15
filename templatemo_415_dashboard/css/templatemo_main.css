@@ -21,7 +21,13 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
 @import url('1ttp://fonts.googleapis.com/css?family=Open Sans:300,400,700');
 @import url(font-awesome.min.css);
 @import url(bootstrap.min.css);
-
+@font-face {
+    font-family: 'aa';
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Koufiya/Koufiya.ttf");
+}
+.Koufiya { font-family: aa, sans-serif; }
 
 @font-face {
     font-family: 'aa';
@@ -99,8 +105,8 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
     font-family: 'kk';
     font-style: normal;
     font-weight: normal;
-    src: url("../fonts/B Yekan/B Yekan.ttf");
-}
+    src: url("../fonts/B Yekan/B Yekan.ttf" );
+!important;}
 .BYekan{ font-family: kk, sans-serif; }
 @font-face {
     font-family: 'll';
@@ -129,6 +135,7 @@ http://www.templatemo.com/preview/templatemo_415_dashboard
 /* 2. General Styles
 --------------------------------------- */
 * { font-family: 'Open Sans', sans-serif; }
+
 body { background-color: rgb(235,235,235); }
 h1 { font-size: 33px;
     color: cadetblue;
@@ -185,6 +192,7 @@ margin-top: 18px !important;}
     margin: 0;
     padding: 0;
     width: 342px;
+
 }
 .templatemo-sidebar .templatemo-sidebar-menu > li {
     display: block;
@@ -267,6 +275,7 @@ background-color: #2a6496}
     display: inline-block;
     width: 1.25em;
     text-align: center;
+
 }
 
 /* 4. Charts
