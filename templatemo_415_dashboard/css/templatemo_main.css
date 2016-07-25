@@ -199,7 +199,7 @@ margin-top: 18px !important;}
     margin: 0;
     padding: 0;
     border: 0px;
-    font-size: 17px;
+    font-size: 19px;
 }
 .savebtn{
     font-size: 30px;
@@ -218,6 +218,10 @@ margin-top: 18px !important;}
     text-align: center;
     border: none;
 }
+/*.subMenuList .Koufiya{
+    text-align: center;
+
+}*/
 .templatemo-sidebar .templatemo-sidebar-menu > li > a {
     display: block;
     position: relative;
@@ -225,7 +229,7 @@ margin-top: 18px !important;}
     border: 0px;
     padding: 20px 15px;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 300;
 }
 input[type=date]::-webkit-inner-spin-button {
